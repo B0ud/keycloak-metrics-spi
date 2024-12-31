@@ -24,7 +24,7 @@ jobs:
         settings-path: ${{ github.workspace }} # location for the settings.xml file
 
     - name: Build with Maven
-      run: mvn -B package --file pom.xml -Dkeycloak.version=18.0.18 -Dprometheus.version=2.53.3
+      run: mvn -B package --file pom.xml -Dkeycloak.version=18.0.2 -Dprometheus.version=0.16.0
 
     
     - name: Publish to GitHub Packages Apache Maven
