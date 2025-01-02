@@ -15,8 +15,8 @@
         <prometheus.version>0.16.0</prometheus.version>
         <quarkus-resteasy.version>3.8.5</quarkus-resteasy.version>
         <version.compiler.maven.plugin>3.5.1</version.compiler.maven.plugin>
-        <maven.compiler.source>11</maven.compiler.source>
-        <maven.compiler.target>11</maven.compiler.target>
+        <maven.compiler.source>21</maven.compiler.source>
+        <maven.compiler.target>21</maven.compiler.target>
     </properties>
 
     <dependencies>
